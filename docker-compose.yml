@@ -1,0 +1,24 @@
+version: '3'
+
+services:
+  mysql:
+    image: mysql
+    container_name: tsic-mysql
+    environment:
+      MYSQL_DATABASE: gamorsweb
+      MYSQL_USER: luis
+      MYSQL_PASSWORD: admin
+      MYSQL_ROOT_PASSWORD: admin
+    ports:
+      - "3306:3306"
+    restart: always
+    
+  web:
+    image: joseluisgg/jlgg_tsic
+    container_name: tsic-php
+    ports:
+      - "80:80"
+    volumes:
+      - ./www:/var/www/html
+    links:
+      - mysql

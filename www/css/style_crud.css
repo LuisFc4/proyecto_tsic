@@ -1,0 +1,152 @@
+.crud_menu{
+    border-bottom:1px solid #CCC;
+    width:100%;
+}
+
+.shirt-form{
+    width:25%;
+    float:left;
+    text-align:left;
+}
+.div-table{
+    width:75%;
+    float:left;
+    text-align:right;
+}
+.clearfix{
+    clear:both;
+}
+
+.clearfix{
+    clear:both;
+}
+
+/*ESTILOS DE LA TABLA*/
+table.shirt-table {
+    border: 1px solid #5e3436;
+    background-color: #EEEEEE;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+  }
+  table.shirt-table td, table.shirt-table th {
+    border: 1px solid #AAAAAA;
+    padding: 3px 2px;
+  }
+  table.shirt-table tbody td {
+    font-size: 13px;
+  }
+  table.shirt-table tr:nth-child(even) {
+    background: #D0E4F5;
+  }
+  table.shirt-table thead {
+    background: #5e3436;
+    background: -moz-linear-gradient(top, #5e3436 0%, #5e3436 66%, #5e3436 100%);
+    background: -webkit-linear-gradient(top, #5e3436 0%, #5e3436 66%, #5e3436 100%);
+    background: linear-gradient(to bottom, #5e3436 0%, #5e3436 66%, #5e3436 100%);
+    border-bottom: 2px solid #444444;
+  }
+  table.shirt-table thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border-left: 2px solid #D0E4F5;
+  }
+  table.shirt-table thead th:first-child {
+    border-left: none;
+  }
+  
+  table.shirt-table tfoot {
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #D0E4F5;
+    background: -moz-linear-gradient(top, #5e3436 0%, #5e3436 66%, #5e3436 100%);
+    background: -webkit-linear-gradient(top, #5e3436 0%, #5e3436 66%, #5e3436 100%);
+    background: linear-gradient(to bottom, #5e3436 0%, #5e3436 66%, #5e3436 100%);
+    border-top: 2px solid #444444;
+  }
+  table.shirt-table tfoot td {
+    font-size: 14px;
+  }
+  table.shirt-table tfoot .links {
+    text-align: right;
+  }
+  table.shirt-table tfoot .links a{
+    display: inline-block;
+    background: #5e3436;
+    color: #FFFFFF;
+    padding: 2px 8px;
+    border-radius: 5px;
+  }
+
+  /* ESTILO FORMULARIO*/
+  textarea {
+    width: 90%;
+    height: 100px;
+    padding: 30px 30px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #ffffff;
+    resize: none;
+  }
+
+  input[type=button], input[type=submit], input[type=reset] {
+    width: 90%;
+    background-color: #5e3436;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  input[type=image] {
+    width: 70px;
+    height: 60;
+  }
+
+  input {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  /* ESTILOS NAV BAR */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5e3436;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  #carrito_boton{
+    width: 100%;
+    background-color: #639ac7;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
