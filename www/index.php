@@ -19,7 +19,7 @@
 
           <div class="menu">
             <header class="text-center">
-              <img src="imagenes/logo.jpg" height="100" alt="Logo de GamorsWeb">
+              <img src="Imagenes/logo.jpg" height="100" alt="Logo de GamorsWeb">
             </header>
             <div class="producto">
               <div class="row center-xs">
@@ -78,10 +78,10 @@
             <td style="color:#000000"><?php echo $row['cantidad']*$row['precio']; ?></td>
             <td>
               <a href="delete_shirt_carrito1.php?id=<?php echo $row['id_playera']?>" class="btn btn-secondary">
-                <input type="image" src="imagenes/edit.png"/>
+                <input type="image" src="Imagenes/edit.png"/>
               </a>
               <a href="delete_shirt_carrito.php?id=<?php echo $row['id_playera']?>" class="btn btn-danger">
-                <input type="image" src="imagenes/x-button.png"/>
+                <input type="image" src="Imagenes/x-button.png"/>
               </a>
             </td>
           </tr>
